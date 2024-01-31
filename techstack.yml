@@ -1,0 +1,708 @@
+repo_name: rongfengliang/cayenne
+report_id: 0122abb42b8fbd8cec1e0e3465dfe700
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T08:05:10+00:00'
+requested_by: andrus
+provider: github
+branch: master
+detected_tools_count: 57
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/rongfengliang/cayenne
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/cayenne-server/src/test/resources/ddl/db2/create-out-sp.sql
+  detection_source: cayenne-server/src/test/resources/ddl/db2/create-out-sp.sql
+  last_updated_by: Andrus Adamchik
+  last_updated_on: 2007-01-21 11:11:02.000000000 Z
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/cayenne-server/pom.xml
+  detection_source: cayenne-server/pom.xml
+  last_updated_by: aadamchik
+  last_updated_on: 2014-10-29 16:46:50.000000000 Z
+- name: Apache Derby
+  description: An open source relational database implemented entirely in Java
+  website_url: https://db.apache.org/derby/index.html
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/7309/derby.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/cayenne-tools/pom.xml
+  detection_source: cayenne-tools/pom.xml
+  last_updated_by: Andrus Adamchik
+  last_updated_on: 2016-12-11 17:02:00.000000000 Z
+- name: Ehcache
+  description: Java's Most Widely-Used Cache
+  website_url: http://ehcache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Cache
+  image_url: https://img.stackshare.io/service/3093/EhcacheTwitterIcon.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/cayenne-server/pom.xml
+  detection_source: cayenne-server/pom.xml
+  last_updated_by: kolonitsky
+  last_updated_on: 2015-02-19 14:21:49.000000000 Z
+- name: HSQLDB
+  description: Leading SQL relational database software written in Java
+  website_url: http://hsqldb.org
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/6958/yQ4763oZ_400x400.jpg
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/cayenne-crypto/pom.xml
+  detection_source: cayenne-crypto/pom.xml
+  last_updated_by: Andrus Adamchik
+  last_updated_on: 2014-03-17 11:48:05.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/rongfengliang/cayenne
+  detection_source: Repo Metadata
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/build-tools/cayenne-test-utilities/pom.xml
+  detection_source: build-tools/cayenne-test-utilities/pom.xml
+  last_updated_by: Andrus Adamchik
+  last_updated_on: 2016-12-11 12:00:59.000000000 Z
+- name: Mockito
+  description: Tasty mocking framework for unit tests in Java
+  website_url: https://site.mockito.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/cayenne-client/pom.xml
+  detection_source: cayenne-client/pom.xml
+  last_updated_by: Andrus Adamchik
+  last_updated_on: 2013-11-16 21:33:13.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/cayenne-client/pom.xml
+  detection_source: cayenne-client/pom.xml
+  last_updated_by: Andrus Adamchik
+  last_updated_on: 2007-01-21 11:11:02.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Ruslan Ibragimov
+  last_updated_on: 2016-12-02 16:59:27.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/rongfengliang/cayenne
+  detection_source: Repo Metadata
+- name: com.caucho:hessian
+  description: Hessian is a compact binary protocol for connecting web services
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/cayenne-client/pom.xml
+  detection_source: cayenne-client/pom.xml
+  last_updated_by: Savva Kolbachev
+  last_updated_on: 2015-11-25 10:41:22.000000000 Z
+- name: com.jgoodies:forms
+  description: The JGoodies Forms framework helps you lay out and implement elegant
+    Swing panels quickly and consistently
+  license: DSDP
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/docs/doc/pom.xml
+  detection_source: docs/doc/pom.xml
+  last_updated_by: Nikita Timofeev
+  last_updated_on: 2016-11-10 11:43:16.000000000 Z
+- name: com.jgoodies:jgoodies-looks
+  description: The JGoodies Looks make your Swing applications and applets look better
+  license: DSDP
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/docs/doc/pom.xml
+  detection_source: docs/doc/pom.xml
+  last_updated_by: Nikita Timofeev
+  last_updated_on: 2016-11-10 11:43:16.000000000 Z
+- name: commons-collections:commons-collections
+  description: Types that extend and augment the Java Collections Framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/cayenne-client/pom.xml
+  detection_source: cayenne-client/pom.xml
+  last_updated_by: Savva Kolbachev
+  last_updated_on: 2016-09-25 21:39:51.000000000 Z
+- name: commons-logging:commons-logging
+  description: Apache Commons Logging is a thin adapter allowing configurable bridging
+    to other
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/build-tools/cayenne-test-utilities/pom.xml
+  detection_source: build-tools/cayenne-test-utilities/pom.xml
+  last_updated_by: Andrus Adamchik
+  last_updated_on: 2016-12-11 12:00:59.000000000 Z
+- name: hsqldb:hsqldb
+  description: Lightweight 100% Java SQL Database Engine
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/cayenne-crypto/pom.xml
+  detection_source: cayenne-crypto/pom.xml
+  last_updated_by: Andrus Adamchik
+  last_updated_on: 2014-03-17 11:48:05.000000000 Z
+- name: io.protostuff:protostuff-core
+  description: Protobuf serialization for mutable messages
+  version: 1.4.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/cayenne-protostuff/pom.xml
+  detection_source: cayenne-protostuff/pom.xml
+  last_updated_by: Andrus Adamchik
+  last_updated_on: 2016-12-11 12:00:59.000000000 Z
+- name: io.protostuff:protostuff-runtime
+  description: Protobuf serialization for pre-existing objects
+  version: 1.4.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/cayenne-protostuff/pom.xml
+  detection_source: cayenne-protostuff/pom.xml
+  last_updated_by: Andrus Adamchik
+  last_updated_on: 2016-12-11 12:00:59.000000000 Z
+- name: javax.servlet:servlet-api
+  license: CDDL-1.0,GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/cayenne-server/pom.xml
+  detection_source: cayenne-server/pom.xml
+  last_updated_by: Andrus Adamchik
+  last_updated_on: 2016-12-11 12:00:59.000000000 Z
+- name: jgraph:jgraph
+  description: Java Graph Visualization and Layout component
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/modeler/cayenne-modeler/pom.xml
+  detection_source: modeler/cayenne-modeler/pom.xml
+  last_updated_by: Andrus Adamchik
+  last_updated_on: 2013-11-16 21:22:50.000000000 Z
+- name: jgroups:jgroups-all
+  description: JGroups core
+  license: LGPL-2.1+
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/cayenne-server/pom.xml
+  detection_source: cayenne-server/pom.xml
+  last_updated_by: Savva Kolbachev
+  last_updated_on: 2016-09-25 21:39:51.000000000 Z
+- name: jivesoftware:smack
+  description: Smack is an Open Source XMPP
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/cayenne-server/pom.xml
+  detection_source: cayenne-server/pom.xml
+  last_updated_by: aadamchik
+  last_updated_on: 2014-10-29 16:46:50.000000000 Z
+- name: jivesoftware:smackx
+  description: Smack is an Open Source XMPP
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/cayenne-server/pom.xml
+  detection_source: cayenne-server/pom.xml
+  last_updated_by: aadamchik
+  last_updated_on: 2014-10-29 16:46:50.000000000 Z
+- name: joda-time:joda-time
+  description: Date and time library to replace JDK date handling
+  version: '2.7'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/cayenne-joda/pom.xml
+  detection_source: cayenne-joda/pom.xml
+  last_updated_by: Andrus Adamchik
+  last_updated_on: 2016-12-11 12:00:59.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/build-tools/cayenne-test-utilities/pom.xml
+  detection_source: build-tools/cayenne-test-utilities/pom.xml
+  last_updated_by: Andrus Adamchik
+  last_updated_on: 2009-11-21 13:41:08.000000000 Z
+- name: net.sf.ehcache:ehcache-core
+  description: This is the ehcache core module
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/cayenne-server/pom.xml
+  detection_source: cayenne-server/pom.xml
+  last_updated_by: kolonitsky
+  last_updated_on: 2015-02-19 14:21:49.000000000 Z
+- name: ognl:ognl
+  description: OGNL - Object Graph Navigation Library
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/docs/doc/pom.xml
+  detection_source: docs/doc/pom.xml
+  last_updated_by: Andrus Adamchik
+  last_updated_on: 2007-01-21 11:11:02.000000000 Z
+- name: opensymphony:oscache
+  description: OSCache is a caching solution that includes a JSP tag library and set
+    of classes to perform fine grained dynamic caching of JSP content
+  license: OpenSSL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/cayenne-server/pom.xml
+  detection_source: cayenne-server/pom.xml
+  last_updated_by: kolonitsky
+  last_updated_on: 2015-02-19 14:21:49.000000000 Z
+- name: org.apache.ant:ant
+  description: Master POM
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/cayenne-tools/pom.xml
+  detection_source: cayenne-tools/pom.xml
+  last_updated_by: Andrus Adamchik
+  last_updated_on: 2016-12-11 17:02:00.000000000 Z
+- name: org.apache.ant:ant-testutil
+  description: Test utility classes
+  version: 1.9.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/cayenne-tools/pom.xml
+  detection_source: cayenne-tools/pom.xml
+  last_updated_by: Andrus Adamchik
+  last_updated_on: 2016-12-11 17:02:00.000000000 Z
+- name: org.apache.cayenne:cayenne-server
+  description: An aggregation of all Cayenne "server" modules
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/assembly/pom.xml
+  detection_source: assembly/pom.xml
+  last_updated_by: Andrus Adamchik
+  last_updated_on: 2016-12-11 12:00:59.000000000 Z
+- name: org.apache.commons:commons-dbcp2
+  description: Apache Commons DBCP software implements Database Connection Pooling
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/cayenne-dbcp2/pom.xml
+  detection_source: cayenne-dbcp2/pom.xml
+  last_updated_by: Andrus Adamchik
+  last_updated_on: 2016-12-11 12:00:59.000000000 Z
+- name: org.apache.derby:derby
+  description: Contains the core Apache Derby database engine
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/cayenne-tools/pom.xml
+  detection_source: cayenne-tools/pom.xml
+  last_updated_by: Andrus Adamchik
+  last_updated_on: 2016-12-11 17:02:00.000000000 Z
+- name: org.apache.geronimo.specs:geronimo-jms_1.1_spec
+  description: Provides open-source implementations of Sun specifications
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/cayenne-server/pom.xml
+  detection_source: cayenne-server/pom.xml
+  last_updated_by: kolonitsky
+  last_updated_on: 2015-02-19 14:21:49.000000000 Z
+- name: org.apache.maven.plugin-testing:maven-plugin-testing-harness
+  description: The Maven Plugin Testing Harness provides mechanisms to manage tests
+    on Mojo
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/plugins/maven-cayenne-plugin/pom.xml
+  detection_source: plugins/maven-cayenne-plugin/pom.xml
+  last_updated_by: Andrus Adamchik
+  last_updated_on: 2016-12-11 12:00:59.000000000 Z
+- name: org.apache.maven.plugin-tools:maven-plugin-tools-api
+  description: The Maven Plugin Tools Extractor API provides an API to extract descriptor
+    information from Maven Plugins
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/plugins/maven-cayenne-modeler-plugin/pom.xml
+  detection_source: plugins/maven-cayenne-modeler-plugin/pom.xml
+  last_updated_by: Andrus Adamchik
+  last_updated_on: 2016-12-11 12:00:59.000000000 Z
+- name: org.apache.maven:maven-artifact
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/plugins/maven-cayenne-modeler-plugin/pom.xml
+  detection_source: plugins/maven-cayenne-modeler-plugin/pom.xml
+  last_updated_by: Andrus Adamchik
+  last_updated_on: 2016-12-11 12:00:59.000000000 Z
+- name: org.apache.maven:maven-compat
+  description: Maven classes maintained as compatibility layer for tools done with
+    Maven 2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/plugins/maven-cayenne-plugin/pom.xml
+  detection_source: plugins/maven-cayenne-plugin/pom.xml
+  last_updated_by: Andrus Adamchik
+  last_updated_on: 2016-12-11 12:00:59.000000000 Z
+- name: org.apache.maven:maven-core
+  description: Maven Core classes
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/plugins/maven-cayenne-plugin/pom.xml
+  detection_source: plugins/maven-cayenne-plugin/pom.xml
+  last_updated_by: Andrus Adamchik
+  last_updated_on: 2016-12-11 12:00:59.000000000 Z
+- name: org.apache.maven:maven-plugin-api
+  description: The API for plugins - Mojos - development
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/plugins/maven-cayenne-modeler-plugin/pom.xml
+  detection_source: plugins/maven-cayenne-modeler-plugin/pom.xml
+  last_updated_by: Andrus Adamchik
+  last_updated_on: 2016-12-11 12:00:59.000000000 Z
+- name: org.apache.maven:maven-project
+  description: This library is used to not only read Maven project object model files
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/plugins/maven-cayenne-modeler-plugin/pom.xml
+  detection_source: plugins/maven-cayenne-modeler-plugin/pom.xml
+  last_updated_by: Andrus Adamchik
+  last_updated_on: 2016-12-11 12:00:59.000000000 Z
+- name: org.apache.velocity:velocity
+  description: Apache Velocity is a general purpose template engine
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/cayenne-server/pom.xml
+  detection_source: cayenne-server/pom.xml
+  last_updated_by: kolonitsky
+  last_updated_on: 2015-02-19 14:21:49.000000000 Z
+- name: org.codehaus.plexus:plexus-container-default
+  description: The Plexus IoC container API and its default implementation
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/plugins/maven-cayenne-plugin/pom.xml
+  detection_source: plugins/maven-cayenne-plugin/pom.xml
+  last_updated_by: kolonitsky
+  last_updated_on: 2015-02-12 13:28:40.000000000 Z
+- name: org.codehaus.plexus:plexus-interpolation
+  description: The Plexus project provides a full software stack for creating and
+    executing software projects
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/plugins/maven-cayenne-plugin/pom.xml
+  detection_source: plugins/maven-cayenne-plugin/pom.xml
+  last_updated_by: kolonitsky
+  last_updated_on: 2015-02-19 14:21:49.000000000 Z
+- name: org.eclipse.jetty.http2:http2-server
+  description: The Eclipse Jetty Project
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/cayenne-client-jetty/pom.xml
+  detection_source: cayenne-client-jetty/pom.xml
+  last_updated_by: Andrus Adamchik
+  last_updated_on: 2016-12-11 12:00:59.000000000 Z
+- name: org.eclipse.jetty:jetty-client
+  description: The Eclipse Jetty Project
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/cayenne-client-jetty/pom.xml
+  detection_source: cayenne-client-jetty/pom.xml
+  last_updated_by: Andrus Adamchik
+  last_updated_on: 2016-12-11 12:00:59.000000000 Z
+- name: org.eclipse.jetty:jetty-servlet
+  description: Jetty Servlet Container
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/cayenne-client-jetty/pom.xml
+  detection_source: cayenne-client-jetty/pom.xml
+  last_updated_by: Andrus Adamchik
+  last_updated_on: 2016-12-11 12:00:59.000000000 Z
+- name: org.eclipse.jetty:jetty-servlets
+  description: Utility Servlets from Jetty
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/cayenne-client-jetty/pom.xml
+  detection_source: cayenne-client-jetty/pom.xml
+  last_updated_by: Andrus Adamchik
+  last_updated_on: 2016-12-11 12:00:59.000000000 Z
+- name: org.mockito:mockito-all
+  description: Mock objects library for java
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/cayenne-client/pom.xml
+  detection_source: cayenne-client/pom.xml
+  last_updated_by: aadamchik
+  last_updated_on: 2014-11-02 18:29:14.000000000 Z
+- name: org.slf4j:jcl-over-slf4j
+  description: JCL 1.2 implemented over SLF4J
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/cayenne-client/pom.xml
+  detection_source: cayenne-client/pom.xml
+  last_updated_by: aadamchik
+  last_updated_on: 2014-11-02 18:29:14.000000000 Z
+- name: org.slf4j:slf4j-api
+  description: The slf4j API
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/cayenne-client/pom.xml
+  detection_source: cayenne-client/pom.xml
+  last_updated_by: aadamchik
+  last_updated_on: 2014-11-02 18:29:14.000000000 Z
+- name: org.slf4j:slf4j-simple
+  description: SLF4J Simple binding
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/cayenne-client/pom.xml
+  detection_source: cayenne-client/pom.xml
+  last_updated_by: aadamchik
+  last_updated_on: 2014-11-02 18:29:14.000000000 Z
+- name: org.springframework:spring-core
+  description: Spring Core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/cayenne-server/pom.xml
+  detection_source: cayenne-server/pom.xml
+  last_updated_by: aadamchik
+  last_updated_on: 2014-11-02 18:29:14.000000000 Z
+- name: org.springframework:spring-mock
+  description: 'Spring Framework: Mock'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/cayenne-server/pom.xml
+  detection_source: cayenne-server/pom.xml
+  last_updated_by: aadamchik
+  last_updated_on: 2014-11-02 18:29:14.000000000 Z
+- name: xmlunit:xmlunit
+  description: XMLUnit compares a control XML document to a test document or the result
+    of a transformation
+  version: '1.5'
+  license: DSDP
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/cayenne/blob/master/cayenne-server/pom.xml
+  detection_source: cayenne-dbsync/pom.xml
+  last_updated_by: Andrus Adamchik
+  last_updated_on: 2016-09-29 17:33:54.000000000 Z
